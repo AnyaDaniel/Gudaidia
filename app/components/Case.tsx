@@ -5,21 +5,21 @@ import Color from './Color'
 const Case = () => {
   return (
     <div>
-        <div className="py-5 text-center">
-          <h1 className='text-purple-600 text-5xl font-extrabold'>SERVICES</h1>
+        <div className="py-5 text-center my-8">
+          <h1 className='text-purple-black text-4xl font-extrabold'>SERVICES: Business Transformation</h1>
         </div>
         <div className="grid md:grid-cols-4 ">
-           <GridImage heading='Brand Renaissance' link='' pic="/gud1.jpg" text='Revitalizing and evolving brand identities to ensure relevance and impactful engagement with target audiences. SB'/>
+           <GridImage heading='Brand Renaissance' link='' pic="/gud1.jpg" text='Revitalizing and evolving brand identities to ensure relevance and impactful engagement with target audiences.'/>
            <Color color='bg-yellow-300' />
-           <GridImage heading='Business Strategy Alignment' link='' pic="/gud2.jpg" text='Providing expert advice and insights to align business operations with market trends and future goals, driving strategic growth. SU & NV'/>
+           <GridImage heading='Business Strategy Alignment' link='' pic="/gud2.jpg" text='We help organizations align their teams, goals, and processes with their core strategy, so every move drives focused, cohesive growth.'/>
            <Color color='bg-teal-300' />
            <Color color='bg-pink-300' />
-           <GridImage heading='Digital Positioning and Transformation' link='' pic="/gud3.jpg" text='Optimizing and leveraging digital strategies to achieve a specific market position or advantage. (market differentiation).  SME/EB'/>
+           <GridImage heading='Digital Positioning' link='' pic="/digital-positioning.jpg" text='We help brands shape how they’re seen online, enhancing visibility, reputation, and discoverability across web, social, and search platforms.'/>
            <Color color='bg-blue-300' />
-           <GridImage heading='Excellence Optimization' link='' pic="/gud4.jpg" text='Streamlining and enhancing business processes to achieve peak efficiency, cost reduction, and superior performance. SME/EB'/>
-           <GridImage heading='Innovative Solutions Management' link='' pic="/gud5.jpg" text='Guiding businesses through the complete innovation lifecycle, from conceptualization to implementation, to maintain a competitive edge. MB'/>
+           <GridImage heading='Business Process Optimization' link='' pic="/business-process-opt.jpg" text='Streamlining and enhancing business processes to achieve peak efficiency, cost reduction, and superior performance.'/>
+           <GridImage heading='Idea-to-Impact Lab' link='' pic="/gud5.jpg" text='We help organizations  create, manage and implement new ideas or turn ideas into impact that drives value and competitive advantage.'/>
            <Color color='bg-purple-300' />
-           <GridImage heading='Holistic Growth Design' link='' pic="/gud6.jpg" text='Delivering comprehensive strategies for sustainable business growth that aligns with long-term objectives and vision. SB'/>
+           <GridImage heading='Holistic Growth Design' link='' pic="/gud6.jpg" text='We create integrated growth roadmaps that align your strategy, innovation, people, and processes, driving sustainable expansion across markets and touchpoints.'/>
            <Color color='bg-orange-300' />
            
         </div>

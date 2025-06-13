@@ -19,10 +19,9 @@ const Navbar = () => {
                 <Link href={'/'}><Image src={'/logo2.jpg'} alt='logo' width={110} height={57}/></Link>
                 <ul className="md:flex font-[400] text-[19px] gap-10 items-center hidden">
                     <Link href={'/'}><li className="hover:text-[#a5a5a5]">Home</li></Link>
-                    <Link href={'/work'}><li className="hover:text-[#a5a5a5]">Work</li></Link>
                     <Link href={'/about'}><li className="hover:text-[#a5a5a5]">About Us</li></Link>
+                    <Link href={'/work'}><li className="hover:text-[#a5a5a5]">Work</li></Link>   
                     <Link href={'/contact'}><li className="hover:text-[#a5a5a5]">Contact Us</li></Link>
-                    <Link href={''}> <li className='bg-[#faf1cf] py-2 px-4 text-gray-900 rounded-md hover:bg-[#a5a5a5]'>Gʊd Aɪ’diə Campaign</li> </Link>
                 </ul>
                 <CgMenuCheese className='text-[30px] md:hidden' onClick={handleClick}/>
             </div>
