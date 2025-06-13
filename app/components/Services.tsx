@@ -9,9 +9,9 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4">
            <GridImage heading='Our MVP' pic="/apple.jpg" text='' link='/about#mvp'/>
-           <GridImage heading='About Us' pic="/plane.jpg" text='' link='/about'/>
-           <GridImage heading='CSM/EDF Algorithm' pic="/apt.jpg" text='' link='/work'/>
-           <GridImage heading='Works' pic="/compass.jpg" text='' link='/work'/>
+           <GridImage heading='About Us' pic="/logo2.jpg" text='' link='/about'/>
+           <GridImage heading='CSM/EDF Algorithm' pic="/algorithm.jpg" text='' link='/work'/>
+           <GridImage heading='Our Work' pic="/work.jpg" text='' link='/work'/>
            {/* <GridImage heading='Register' pic="/register.jpg" text='' link='/'/>
            <GridImage heading='Donate' pic="/donate.jpg" text='' link='/'/>
            <GridImage heading='Contact Us' pic="/contact.jpg" text='' link='/contact'/>

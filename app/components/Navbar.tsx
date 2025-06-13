@@ -13,10 +13,10 @@ const Navbar = () => {
   }
   return (
     <div>
-      <div className='w-full bg-[#800080] fixed z-40'>
+      <div className='w-full bg-black fixed z-40'>
         <div className="flex justify-center items-center text-white py-3">
             <div className="flex justify-between items-center w-[80%] m-auto">
-                <Link href={'/'}><Image src={'/logo.png'} alt='logo' width={87} height={57}/></Link>
+                <Link href={'/'}><Image src={'/logo2.jpg'} alt='logo' width={110} height={57}/></Link>
                 <ul className="md:flex font-[400] text-[19px] gap-10 items-center hidden">
                     <Link href={'/'}><li className="hover:text-[#a5a5a5]">Home</li></Link>
                     <Link href={'/work'}><li className="hover:text-[#a5a5a5]">Work</li></Link>
