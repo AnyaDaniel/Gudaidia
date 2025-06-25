@@ -17,28 +17,28 @@ const OurWork = () => {
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-green-600">Innovation Strategy</h3>
-              <p className="mt-2 text-gray-600">We bring fresh, creative ideas tailored to your unique business needs.</p>
+              <h3 className="text-2xl font-semibold text-green-600">Sparked by Ingenuity</h3>
+              <p className="mt-2 text-gray-600">We generate bold, original ideas that are not only creative but strategically aligned with your business goals.</p>
             </div>
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-green-600">Growth Strategy</h3>
-              <p className="mt-2 text-gray-600">We bring fresh, creative ideas tailored to your unique business needs.</p>
+              <h3 className="text-2xl font-semibold text-green-600">Wisdom That Works</h3>
+              <p className="mt-2 text-gray-600">Our team of seasoned professionals brings deep industry knowledge and practical experience</p>
             </div>
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-green-600">Client-Centric Solutions</h3>
               <p className="mt-2 text-gray-600">We prioritize your goals and work collaboratively to bring your vision to life.</p>
             </div>
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-green-600">Proven Results</h3>
-              <p className="mt-2 text-gray-600">Our strategies have a track record of driving success and growth for our clients.</p>
+              <h3 className="text-2xl font-semibold text-green-600">Your Vision, Our Mission</h3>
+              <p className="mt-2 text-gray-600">We place your goals at the heart of everything we do</p>
             </div>
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-green-600">Personalized Approach</h3>
-              <p className="mt-2 text-gray-600">Tailored services to meet your unique needs and ideas, ensuring a customized experience.</p>
+              <h3 className="text-2xl font-semibold text-green-600">Results You Can Measure</h3>
+              <p className="mt-2 text-gray-600">Our strategies are backed by data and built for impact.</p>
             </div>
             <div className="p-6 bg-purple-100 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold text-green-600">Actionable Results</h3>
-              <p className="mt-2 text-gray-600">Tangible outcomes that move your ideas from conception to implementation.</p>
+              <h3 className="text-2xl font-semibold text-green-600">Built Just for You</h3>
+              <p className="mt-2 text-gray-600">We shape every strategy around your purpose, challenges, and potential ,forging solutions that align with your identity, not industry norms. </p>
             </div>
           </div>
         </div>
@@ -47,8 +47,8 @@ const OurWork = () => {
       {/* Second Header */}
       <div className='w-full bg-gray-100'>
         <div className="py-16 text-center text-purple-600">
-          <h1 className="text-3xl font-extrabold mt-10">Work and accomplishments: </h1>
-          <p className="mt-4 text-xl">At The Gud Aidia Company, we leverage our expertise to deliver impactful solutions across various domains. Here’s a snapshot of our recent projects and achievements based on the specific need of business </p>
+          <h1 className="text-3xl font-extrabold mt-10">From Idea to Impact</h1>
+          <p className="mt-4 text-xl">We turn strategy into action. Our CSM/EDF Framework guides you through every phase. It’s a structured, flexible approach designed to transform ideas into measurable growth.</p>
         </div>
       </div>
 

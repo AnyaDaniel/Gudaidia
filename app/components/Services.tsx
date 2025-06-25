@@ -5,11 +5,13 @@ const Services = () => {
   return (
     <div>
         <div className="py-5 text-center">
-            <h1 className='text-black text-5xl font-extrabold '>Our Approach</h1>
+            <h1 className='text-black text-4xl md:text-5xl font-extrabold mb-4'>The Gud Catalyst</h1>
+            <p>Igniting innovation. Accelerating growth</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4">
+            <GridImage heading='About Us' pic="/light-bulb-img.jpg" text='' link='/about'/>
            <GridImage heading='Our MVP' pic="/apple2.png" text='' link='/about#mvp'/>
-           <GridImage heading='About Us' pic="/light-bulb-img.jpg" text='' link='/about'/>
+           
            <GridImage heading='CSM/EDF Framework' pic="/algorithm.jpg" text='' link='/work'/>
            <GridImage heading='Our Work' pic="/work.jpg" text='' link='/work'/>
            {/* <GridImage heading='Register' pic="/register.jpg" text='' link='/'/>

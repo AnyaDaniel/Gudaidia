@@ -30,16 +30,19 @@ const Navbar = () => {
         
       </div>
       <div className={isActive ? ' fixed w-full z-50' : 'hidden'}>
-            <div className="flex justify-center items-center text-white py-3 bg-[#3f6844]">
+            <div className="flex justify-center items-center text-white py-3 bg-black">
               <div className="flex justify-between items-center w-[80%]">
                 <Link href={'/'}><Image src={'/logo.png'} alt='logo' width={87} height={57}/></Link>
+                <button>
                 <CgClose className='text-[30px] md:hidden text-right' onClick={handleClick}/>
+                </button>
+                
               </div>
             </div>
             <div className="flex justify-center items-center h-screen ">
               
               <div className="w-[20%] h-full" onClick={handleClick}></div>
-              <div className="w-[80%] py-5 px-10 bg-[#3f6844] text-white h-full">
+              <div className="w-[80%] py-5 px-10 bg-black text-white h-full">
                 <ul className="text-[25px] pt-20">
                         <Link href={'/'}><li className="hover:text-[#a5a5a5] py-5">Home</li></Link>
                         <Link href={'/work'}><li className="hover:text-[#a5a5a5] py-5">Work</li></Link>
