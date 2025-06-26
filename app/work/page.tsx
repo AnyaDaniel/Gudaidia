@@ -80,7 +80,7 @@ const OurWork = () => {
                     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <a href="https://campaign.gudaidia.com/">
               <Image
-                src="/cam.jpg" // Replace with the correct path if necessary
+                src="/Cam.jpg" // Replace with the correct path if necessary
                 alt="Project 3"
                 width={800} // Add width
                 height={400} // Add height
@@ -98,7 +98,7 @@ const OurWork = () => {
                     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <a href="https://campaign.gudaidia.com/">
               <Image
-                src="/cam.jpg" // Replace with the correct path if necessary
+                src="/Cam.jpg" // Replace with the correct path if necessary
                 alt="Project 3"
                 width={800} // Add width
                 height={400} // Add height
@@ -128,7 +128,7 @@ const OurWork = () => {
                 <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <a href="https://campaign.gudaidia.com/">
               <Image
-                src="/cam.jpg" // Replace with the correct path if necessary
+                src="/Cam.jpg" // Replace with the correct path if necessary
                 alt="Project 3"
                 width={800} // Add width
                 height={400} // Add height
@@ -151,7 +151,7 @@ const OurWork = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <a href="https://ictresources.biz/">
               <Image
-                src="/ict.jpg" // Replace with the correct path if necessary
+                src="/Ict.jpg" // Replace with the correct path if necessary
                 alt="Project 2"
                 width={800} // Add width
                 height={400} // Add height

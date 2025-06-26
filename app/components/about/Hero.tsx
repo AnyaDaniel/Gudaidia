@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='flex flex-col md:flex-row mb-6 pt-20 mx-auto justify-center items-center gap-5 px-8'>
         <div className="flex md:w-1/2">
-          <Image src={'/wireframe.png'} alt='' width={800} height={500} className='aboutimage'/>
+          <Image src='/Wireframe.png' alt='' width={800} height={500} className='aboutimage'/>
         </div>
         <div className="w-full md:w-1/2">
             <h1 className="font-[700] pb-5 text-4xl">We are The Gʊd Aɪ’diə Company</h1>
