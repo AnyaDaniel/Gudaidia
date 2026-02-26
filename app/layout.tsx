@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
-import {Poppins} from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const livvic = Poppins({
-  weight: ['100', '300', '400', '700'],
-  subsets: ['latin'],
-  style: ['normal', 'italic']
- })
+const livvic = localFont({
+  src: "./fonts/GeistVF.woff",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   title: "The Gʊd Aɪ’diə Company",

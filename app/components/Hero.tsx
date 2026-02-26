@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-// @ts-expect-error: CSS module does not have type definitions
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Hero = () => {
