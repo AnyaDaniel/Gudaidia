@@ -116,51 +116,64 @@ const Work = () => {
   };
 
   return (
-    <section className="max-w-5xl mx-auto px-6 py-10">
-      <h2 className="text-4xl font-bold text-center mb-10">Impact Highlights</h2>
-      <p className="text-center text-gray-600 mb-6">
-        At The Gʊd Aɪˈdiə Company, we apply our expertise to create tailored solutions that drive real results.
+    <section className="max-w-5xl mx-auto px-4 md:px-6 py-8 md:py-10">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 md:mb-10">Impact Highlights</h2>
+      <p className="text-center text-base md:text-lg text-gray-600 mb-6 leading-relaxed">
+        Impact shows up as movement. Clearer narratives. Stronger positioning. Systems that actually support progress.
+        Below is the delivery overview of recent collaborations and the momentum we have helped unlock.
       </p>
+
+      <div className="mb-12 rounded-lg overflow-hidden shadow-md">
+        <video 
+          className="w-full h-auto"
+          controls
+          poster=""
+        >
+          <source src="/impact.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       {caseStudies.map((study, index) => (
         <div key={index} className="mb-4 border border-gray-200 rounded-lg overflow-hidden shadow-sm">
           <button
             onClick={() => toggle(index)}
-            className="w-full flex justify-between items-center px-5 py-4 bg-gray-100 hover:bg-gray-200 transition"
+            className="w-full flex justify-between items-center px-4 md:px-5 py-3 md:py-4 bg-gray-100 hover:bg-gray-200 transition"
           >
-            <div>
-              <h3 className="text-xl font-semibold">{study.title}</h3>
-              <p className="text-sm text-gray-500">{study.subtitle}</p>
+            <div className="text-left">
+              <h3 className="text-lg md:text-xl font-semibold">{study.title}</h3>
+              <p className="text-xs md:text-sm text-gray-500">{study.subtitle}</p>
             </div>
-            <span>{activeIndex === index ? <FaArrowUp /> : <FaArrowDown />}</span>
+            <span className="ml-2">{activeIndex === index ? <FaArrowUp /> : <FaArrowDown />}</span>
           </button>
 
           {activeIndex === index && (
-            <div className="px-6 py-5 bg-white space-y-4 text-gray-700">
-              <p><strong>Situation:</strong> {study.details.situation}</p>
-              <p><strong>Task:</strong> {study.details.task}</p>
+            <div className="px-4 md:px-6 py-4 md:py-5 bg-white space-y-3 md:space-y-4 text-gray-700 text-sm md:text-base">
+              <p className="leading-relaxed"><strong>Situation:</strong> {study.details.situation}</p>
+              <p className="leading-relaxed"><strong>Task:</strong> {study.details.task}</p>
 
               <div>
                 <strong>Action:</strong>
-                <ul className="list-disc pl-5">
+                <ul className="list-disc pl-5 space-y-1 leading-relaxed">
                   {study.details.action.map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
               </div>
 
               <div>
                 <strong>Results:</strong>
-                <ul className="list-disc pl-5">
+                <ul className="list-disc pl-5 space-y-1 leading-relaxed">
                   {study.details.results.map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
               </div>
 
               <div>
                 <strong>Outcome & Impact:</strong>
-                <ul className="list-disc pl-5">
+                <ul className="list-disc pl-5 space-y-1 leading-relaxed">
                   {study.details.outcome.map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
               </div>
 
-              <p className="italic text-green-700">Client Feedback: {study.details.feedback}</p>
+              <p className="italic text-green-700 leading-relaxed">Client Feedback: {study.details.feedback}</p>
 
               {study.details.explore && (
                 <a

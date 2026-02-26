@@ -7,20 +7,20 @@ const Mvp = () => {
         <div className="text-justify md:w-1/2">
             <h1 className="font-[700] pb-5 text-3xl">Our MVP</h1>
             <p className="text-[20px] pb-3">
-                <span className="font-[700]">Mission: </span>To drive businesses success through innovative strategies and creative solutions. 
+                <span className="font-[700]">Mission: </span>To spark growth through smart strategy and bold creativity. 
             </p>
-            <p className="text-[20px] pb-3 mb-6">
-                <span className="font-[700]">Vision: </span>To be the top growth enablement firm offering innovative and growth strategies needed by businesses to achieve sustainable success. 
+            <p className="text-base md:text-lg pb-3 mb-6 leading-relaxed">
+                <span className="font-bold">Vision: </span>To become a trusted growth enablement partner, known for driving meaningful, lasting impact.
             </p>
-            <p className="text-[20px] pb-3">
-                <span className="font-[700] text-2xl mb-4">Principles: <i>RISE</i> </span><br />
-                <span className="font-[700] text-[25px]">R</span>esilience: We stay committed to our clients&apos; success, overcoming challenges and adapting to change with unwavering dedication.<br />
-                <span className="font-[700] text-[25px]">I</span>nnovation: We constantly seek out and apply the most creative, forward-thinking solutions to drive business growth and transformation.<br />
-                <span className="font-[700] text-[25px]">S</span>ervice Excellence: We deliver outstanding results through exceptional service, ensuring that every client experience is positive and impactful.<br />
-                <span className="font-[700] text-[25px]">E</span>mpowerment: We equip our clients with the knowledge, tools, and confidence they need to succeed, making them active participants in their own transformation.<br />
+            <p className="text-base md:text-lg pb-3 leading-relaxed">
+                <span className="font-bold text-xl md:text-2xl mb-4 block">Principles: <i>RISE</i> </span>
+                <span className="font-bold text-xl md:text-2xl">R</span>esilience: Staying steady through complexity and adapting with intention.<br />
+                <span className="font-bold text-xl md:text-2xl">I</span>nnovation: Exploring new paths and pushing boundaries with purpose.<br />
+                <span className="font-bold text-xl md:text-2xl">S</span>ervice Excellence: Delivering outcomes that matter and experiences that linger.<br />
+                <span className="font-bold text-xl md:text-2xl">E</span>mpowerment: Equipping partners with the clarity and confidence to own their transformation journey.<br />
             </p>
         </div>
-        <div className="md:w-1/2"><Image src={'/research.png'} alt='our mvp' width={500} height={500} className='aboutimage'/></div>
+        <div className="w-full md:w-1/2 md:ml-8 lg:ml-20"><Image src={'/mvp2.jpg'} alt='our mvp' width={500} height={500} className='aboutimage w-full h-auto'/></div>
     </div>
   )
 }

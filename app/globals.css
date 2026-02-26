@@ -37,3 +37,13 @@ body {
   height: 500px !important;
   width: auto !important;
 }
+.cat5{
+  font-size: 1.25rem;
+  color: #555555;
+  font-weight: bolder;
+}
+.cat6{
+  font-size: 1rem;
+  color: #555555;
+  margin: 0 100px;
+}
