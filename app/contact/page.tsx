@@ -17,7 +17,7 @@ const page = () => {
             </div>
             <div className="contactimage"><Form/></div>
             <div className="contactimage bg-[#1ba098] flex flex-col justify-center overflow-hidden text-center h-[520px]">
-                <h1 className='font-lg z-10 font-[700] text-2xl md:text-3xl text-white pb-5'>The Gʊd Aɪ'diə Company</h1>
+                <h1 className='font-lg z-10 font-[700] text-2xl md:text-3xl text-white pb-5'>{`The Gʊd Aɪ'diə Company`}</h1>
                 <p className="text-base md:text-lg text-white z-10 px-5">
                     USA <br />
                     +1862-224-6855 <br />
