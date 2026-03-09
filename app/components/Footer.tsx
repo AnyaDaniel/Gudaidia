@@ -16,7 +16,7 @@ const Footer = () => {
                         <li className="mb-5"><Link href={'/about'} className=' hover:text-[#faf1cf]'>About</Link></li>
                         <li className="mb-5"><Link href={'/about#mvp'} className=' hover:text-[#faf1cf]'>Our MVP</Link></li>
                         <li className="mb-5"><Link href={'/work'} className=' hover:text-[#faf1cf]'>Workshop</Link></li>
-                        <Link href={''}> <li className=''>Gʊd Aɪ’diə Campaign</li> </Link>
+                        {/* <Link href={''}> <li className=''>Gʊd Aɪ’diə Campaign</li> </Link> */}
                     </ul>
                 </div>
                 
