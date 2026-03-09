@@ -38,12 +38,15 @@ body {
   width: auto !important;
 }
 .cat5{
-  font-size: 1.25rem;
-  color: #555555;
-  font-weight: bolder;
-}
-.cat6{
   font-size: 1rem;
   color: #555555;
-  margin: 0 100px;
+  font-weight: bolder;
+  @apply sm:text-lg md:text-xl;
+}
+.cat6{
+  font-size: 0.95rem;
+  color: #555555;
+  margin: 0 20px;
+  @apply sm:mx-12 md:mx-24 lg:mx-[100px];
+  line-height: 1.6;
 }

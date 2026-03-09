@@ -8,8 +8,8 @@ const page = () => {
   return (
     <div>
         <Hero/>
-        <Mvp/>
         <Algorithm/>
+        <Mvp/>
         <Services/>
         <Work/>
     </div>

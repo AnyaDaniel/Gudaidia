@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-center items-center text-white py-3">
             <div className="flex justify-between items-center w-[80%] m-auto">
                 <Link href={'/'}><Image src={'/logo2.jpg'} alt='logo' width={110} height={57}/></Link>
-                <ul className="md:flex font-[400] text-[19px] gap-10 items-center hidden">
+                <ul className="md:flex font-[400] text-sm md:text-base gap-10 items-center hidden">
                     <Link href={'/'}><li className="hover:text-[#a5a5a5]">Home</li></Link>
                     <Link href={'/about'}><li className="hover:text-[#a5a5a5]">About Us</li></Link>
                     <Link href={'/work'}><li className="hover:text-[#a5a5a5]">Work</li></Link>   
@@ -43,7 +43,7 @@ const Navbar = () => {
               
               <div className="w-[20%] h-full" onClick={handleClick}></div>
               <div className="w-[80%] py-5 px-10 bg-black text-white h-full">
-                <ul className="text-[25px] pt-20">
+                <ul className="text-base md:text-lg pt-20">
                         <Link href={'/'}><li className="hover:text-[#a5a5a5] py-5">Home</li></Link>
                         <Link href={'/work'}><li className="hover:text-[#a5a5a5] py-5">Work</li></Link>
                         <Link href={'/about'}><li className="hover:text-[#a5a5a5] py-5">About Us</li></Link>
