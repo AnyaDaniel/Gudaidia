@@ -4,7 +4,7 @@ import React from 'react'
 const Mvp = () => {
   return (
     <div className='bg-gray-100 flex flex-col md:flex-row p-8 justify-center items-center gap-5 text-center md:text-left' id='mvp'>
-        <div className="text-justify md:w-1/2">
+        <div className="text-center md:text-left md:w-1/2">
             <h1 className="font-[700] pb-5 text-3xl">Our MVP</h1>
             <p className="text-base md:text-lg pb-3">
                 <span className="font-[700]">Mission: </span>To spark growth through smart strategy and bold creativity. 

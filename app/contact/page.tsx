@@ -12,8 +12,8 @@ const page = () => {
                 <Image src='/contact1.jpg' alt="University of Southern California" className="absolute inset-0 object-cover contactimage" width={700} height={700}/>
                 <div className="absolute inset-0 bg-[#00000070] h-auto w-full"></div>
                 <h1 className='font-lg z-10 font-[700] text-2xl md:text-3xl text-white'>Contact Us</h1>
-                <h1 className='font-lg z-10 font-[400] text-base md:text-lg text-white'>Let's work together on your next gʊd aɪ'diə.</h1>
-                <p className='text-white font-lg font-[400] text-base md:text-lg'>Let's work together on your next gʊd aɪ'diə.</p>
+                <h1 className='font-lg z-10 font-[400] text-base md:text-lg text-white'>{`Let's work together on your next gʊd aɪ'diə.`}</h1>
+                <p className='text-white font-lg font-[400] text-base md:text-lg'>{`Let's work together on your next gʊd aɪ'diə.`}</p>
             </div>
             <div className="contactimage"><Form/></div>
             <div className="contactimage bg-[#1ba098] flex flex-col justify-center overflow-hidden text-center h-[520px]">

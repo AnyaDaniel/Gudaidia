@@ -18,7 +18,7 @@ const About = () => {
                 Navigating that journey takes more than theory or templates. It takes perspective.
                 </p>
                 <p className="mb-4 leading-relaxed">
-                The Gʊd Aɪ'diə Company is an innovation and growth strategy enabler based in New Jersey. We support organizations through every stage of innovation and growth, without letting complexity slow them down. The work lives where strategy meets imagination, and clear-thinking pairs with hands-on execution.
+                The Gʊd Aɪ&apos;diə Company is an innovation and growth strategy enabler based in New Jersey. We support organizations through every stage of innovation and growth, without letting complexity slow them down. The work lives where strategy meets imagination, and clear-thinking pairs with hands-on execution.
                 </p>
                 <p className="mb-4 leading-relaxed">
                 The team brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who share a simple instinct: make sense of the complex and move ideas forward with purpose. Over time, that instinct has built a reputation for clarity, independence, and honest guidance that clients trust.
