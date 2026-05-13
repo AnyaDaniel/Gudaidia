@@ -1,63 +1,97 @@
 'use client'
 
 import Image from 'next/image';
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import type { IconType } from 'react-icons';
+import { LuLayers, LuLightbulb, LuMonitorSmartphone, LuRefreshCcw, LuTarget, LuZap } from 'react-icons/lu';
 
 const Services = () => {
-  return (
-        <div>
-            <div className="py-5 text-center">
-            <h1 className='text-black text-3xl md:text-4xl lg:text-5xl font-extrabold'>Services</h1>
-        </div>
-        <Carousel showArrows={true} showThumbs={false} showIndicators={true} infiniteLoop={true} useKeyboardArrows={true} autoPlay={true} stopOnHover={true} swipeable={true} transitionTime={2000} interval={5000} animationHandler={'fade'} showStatus={false}>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud1.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Brand Renaissance</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Revitalizing and evolving brand identities to ensure relevance and impactful engagement with target audiences. SB</p>
-            </div>
-        </div>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud2.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Business Strategy Alignment</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Providing expert advice and insights to align business operations with market trends and future goals, driving strategic growth. SU & NV</p>
-            </div>
-        </div>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud3.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Digital Positioning and Transformation</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Optimizing and leveraging digital strategies to achieve a specific market position or advantage (market differentiation).  SME/EB <br /><br />Adoption and integration of cutting-edge digital technologies and strategies to improve operations and customer interactions.</p>
-            </div>
-        </div>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud4.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Excellence Optimization</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Streamlining and enhancing business processes to achieve peak efficiency, cost reduction, and superior performance. SME/EB</p>
-            </div>
-        </div>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud5.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Innovative Solutions Management</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Guiding businesses through the complete innovation lifecycle, from conceptualization to implementation, to maintain a competitive edge. MB</p>
-            </div>
-        </div>
-        <div className="bg-black text-white px-4 md:px-20 lg:px-40 items-center flex min-h-[60vh] md:h-[70vh] text-left py-8 md:py-0">
-        <div className="hidden md:block w-1/2 mr-8"><Image src={'/gud6.jpg'} alt='' width={200} height={300} /></div>
-            <div className='w-full md:w-[50%]'>
-                <h1 className="font-bold pb-4 md:pb-5 text-2xl md:text-3xl lg:text-4xl">Holistic Growth Design</h1>
-                <p className="pb-5 md:pb-20 text-base md:text-lg leading-relaxed">Delivering comprehensive strategies for sustainable business growth that aligns with long-term objectives and vision. SB</p>
-            </div>
-        </div>
-        </Carousel>
-        </div>
-      
-  )
-}
+  const services: { title: string; description: string; image: string; icon: IconType }[] = [
+    {
+      title: 'Brand Renaissance',
+      description: 'Revitalizing and evolving brand identities so your story lands with clarity, confidence, and competitive relevance.',
+      image: '/Gud1.jpg',
+      icon: LuRefreshCcw,
+    },
+    {
+      title: 'Business Strategy Alignment',
+      description: 'Aligning market opportunity, organizational capability, and leadership priorities to create a cohesive growth agenda.',
+      image: '/Gud2.jpg',
+      icon: LuTarget,
+    },
+    {
+      title: 'Digital Positioning & Transformation',
+      description: 'Crafting digital experiences and operating models that sharpen positioning and power meaningful change across channels.',
+      image: '/Gud3.jpg',
+      icon: LuMonitorSmartphone,
+    },
+    {
+      title: 'Excellence Optimization',
+      description: 'Improving processes, governance, and operations so teams perform with consistency, speed, and measurable efficiency.',
+      image: '/Gud4.jpg',
+      icon: LuZap,
+    },
+    {
+      title: 'Innovative Solutions Management',
+      description: 'Managing ideas, pilots, and launch plans so innovation moves forward with structure and commercial clarity.',
+      image: '/Gud5.jpg',
+      icon: LuLightbulb,
+    },
+    {
+      title: 'Holistic Growth Design',
+      description: 'Designing growth strategies that connect customer insights, capability, and long-term business ambition.',
+      image: '/Gud6.jpg',
+      icon: LuLayers,
+    },
+  ];
 
-export default Services
+  return (
+    <section className="py-16 px-4 md:px-8 lg:px-12">
+      <div className="max-w-3xl mx-auto text-center mb-14">
+        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Our Services</h1>
+        <p className="text-gray-600 text-lg max-w-2xl mx-auto">We partner with leaders to unlock growth through strategic innovation and execution excellence.</p>
+      </div>
+
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 max-w-7xl mx-auto">
+        {services.map((service, index) => {
+          const Icon = service.icon;
+          return (
+            <div key={index} className="group overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-sm transition duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+              <div className="relative h-52 overflow-hidden bg-gray-100">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/0 transition duration-500 group-hover:bg-black/10"></div>
+              </div>
+
+              <div className="space-y-5 p-7">
+                <div className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-gray-300 bg-gray-50 text-black">
+                  <Icon className="h-7 w-7" aria-hidden="true" />
+                </div>
+                <div className="space-y-3 text-center">
+                  <h3 className="text-xl font-semibold text-black">{service.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                </div>
+                <button className="inline-flex items-center justify-center rounded-full border border-black bg-black px-5 py-2 text-sm font-semibold text-white transition hover:bg-gray-900">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="mt-14 border-t border-gray-200 pt-10 text-center">
+        <h2 className="text-2xl font-bold text-black mb-4">Ready to Transform Your Business?</h2>
+        <p className="text-gray-600 mb-6">Let&apos;s discuss how our services can drive your growth.</p>
+        <a href="/contact" className="inline-block rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-900">
+          Get Started
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Services;

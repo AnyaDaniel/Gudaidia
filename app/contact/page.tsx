@@ -5,30 +5,48 @@ import Link from 'next/link'
 
 const page = () => {
   return (
-    <div>
-         <div className="pt-16"></div>
-         <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="group relative flex flex-col justify-center overflow-hidden text-center h-[520px]">
-                <Image src='/contact1.jpg' alt="University of Southern California" className="absolute inset-0 object-cover contactimage" width={700} height={700}/>
-                <div className="absolute inset-0 bg-[#00000070] h-auto w-full"></div>
-                <h1 className='font-lg z-10 font-[700] text-2xl md:text-3xl text-white'>Contact Us</h1>
-                <h1 className='font-lg z-10 font-[400] text-base md:text-lg text-white'>{`Let's work together on your next gʊd aɪ'diə.`}</h1>
-                <p className='text-white font-lg font-[400] text-base md:text-lg'>{`Let's work together on your next gʊd aɪ'diə.`}</p>
-            </div>
-            <div className="contactimage"><Form/></div>
-            <div className="contactimage bg-[#1ba098] flex flex-col justify-center overflow-hidden text-center h-[520px]">
-                <h1 className='font-lg z-10 font-[700] text-2xl md:text-3xl text-white pb-5'>{`The Gʊd Aɪ'diə Company`}</h1>
-                <p className="text-base md:text-lg text-white z-10 px-5">
-                    USA <br />
-                    +1862-224-6855 <br />
-                    <Link href={'mailto:info@gudaidia.com'} className='underline'>info@gudaidia.com</Link>
-                </p>
-            </div>
-            <div className="group relative flex flex-col justify-center overflow-hidden text-center h-[520px]">
-                <Image src='/contact2.jpg' alt="University of Southern California" className="absolute inset-0 object-cover contactimage" width={700} height={700}/>
-            </div>
-         </div>
-    </div>
+    <main className='pt-16'>
+      <div className='grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-6 lg:px-8'>
+        <div className='group relative flex flex-col justify-center overflow-hidden text-center h-[520px] rounded-[28px] bg-gray-900'>
+          <Image
+            src='/contact.jpg'
+            alt='Contact phone'
+            fill
+            priority
+            className='object-cover'
+          />
+          <div className='absolute inset-0 bg-black/70'></div>
+          <div className='relative z-10 px-6'>
+            <h1 className='font-[700] text-2xl md:text-3xl text-white mb-4'>Contact Us</h1>
+            <p className='text-base md:text-lg text-white'>Let&apos;s work together on your next Gʊd Aɪ’diə.</p>
+          </div>
+        </div>
+
+        <div className='rounded-[28px] bg-white shadow-sm border border-gray-200'>
+          <Form />
+        </div>
+
+        <div className='contactimage bg-brand-dark-green flex flex-col justify-center overflow-hidden text-center h-[520px] rounded-[28px]'>
+          <div className='px-5'>
+            <h1 className='font-[700] text-2xl md:text-3xl text-white pb-5'>The Gʊd Aɪ’diə Company</h1>
+            <p className='text-base md:text-lg text-white'>
+              USA <br />
+              +1 862-224-6855 <br />
+              <Link href={'mailto:info@gudaidia.com'} className='underline'>info@gudaidia.com</Link>
+            </p>
+          </div>
+        </div>
+
+        <div className='group relative flex flex-col justify-center overflow-hidden text-center h-[520px] rounded-[28px] bg-gray-900'>
+          <Image
+            src='/contact2.jpg'
+            alt='Contact support team'
+            fill
+            className='object-cover'
+          />
+        </div>
+      </div>
+    </main>
   )
 }
 

@@ -5,12 +5,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --brand-dark-green: #064331;
+  --brand-grey: #555555;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-brand-dark-green {
+  background-color: var(--brand-dark-green);
+}
+
+.text-brand-dark-green {
+  color: var(--brand-dark-green);
 }
 
 @layer utilities {

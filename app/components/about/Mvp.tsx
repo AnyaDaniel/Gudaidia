@@ -20,7 +20,17 @@ const Mvp = () => {
                 <span className="font-bold text-base md:text-lg">E</span>mpowerment: Equipping partners with the clarity and confidence to own their transformation journey.<br />
             </p>
         </div>
-        <div className="w-full md:w-1/2 md:ml-8 lg:ml-20"><Image src={'/mvp2.jpg'} alt='our mvp' width={500} height={500} className='aboutimage w-full h-auto'/></div>
+        <div className='w-full md:w-1/2 md:ml-8 lg:ml-20'>
+          <div className='aspect-square overflow-hidden rounded-lg'>
+            <Image
+              src={'/mvp2.jpg'}
+              alt='MVP strategy visualization'
+              width={4160}
+              height={5200}
+              className='w-full h-full object-cover'
+            />
+          </div>
+        </div>
     </div>
   )
 }

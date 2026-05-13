@@ -14,7 +14,7 @@ const Hero = () => {
                 <h1 className="font-bold text-xl sm:text-2xl md:text-4xl leading-relaxed mt-20 md:mt-32 mb-6">We help businesses defy limits, navigate transformation, <br/>and achieve lasting success, no matter how complex.
                 </h1>
                 {/* <p className="pb-5 text-justify leading-relaxed">At The Gʊd AI'diə Company, we help businesses break through challenges<br/> and achieve sustainable success. Whether you’re scaling up, <br/>refining your strategy, or navigating change, our team delivers bold strategies,<br/> fresh insights, and innovative solutions that drive real impact.</p> */}
-                <p className="pb-5 text-sm sm:text-base leading-relaxed text-center">Good ideas surround us every day. They show up in conversations, late-night notes, half-finished sketches, and moments of quiet clarity. But ideas alone don&apos;t move the needle. Momentum comes from intention, courage, and the willingness to take the next step. That&apos;s where we come in.</p>
+                <p className="pb-5 text-sm sm:text-base leading-relaxed">Good ideas surround us every day. They show up in conversations, late-night notes, half-finished sketches, and moments of quiet clarity. But ideas alone don&apos;t move the needle. Momentum comes from intention, courage, and the willingness to take the next step. That&apos;s where we come in.</p>
 
                 <Link href={'./about'} className='mb-10 text-white bg-black px-6 py-4 hidden md:inline-block '> Find out more</Link>
             </div>

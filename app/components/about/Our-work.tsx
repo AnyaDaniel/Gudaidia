@@ -173,14 +173,14 @@ const Work = () => {
                 </ul>
               </div>
 
-              <p className="italic text-green-700 leading-relaxed">Client Feedback: {study.details.feedback}</p>
+              <p className="italic text-gray-700 leading-relaxed">Client Feedback: {study.details.feedback}</p>
 
               {study.details.explore && (
                 <a
                   href={study.details.explore}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 underline"
+                  className="text-gray-900 underline"
                 >
                   Visit Website
                 </a>

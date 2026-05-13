@@ -12,7 +12,7 @@ const GridImage = ({heading, pic, text, link}: Gridimg) => {
       <div className="group relative flex flex-col justify-center overflow-hidden text-center h-[415px] cursor-pointer">
         <Image
           src={pic}
-          alt="University of Southern California"
+          alt={heading}
           fill
           className="object-cover"
         />
