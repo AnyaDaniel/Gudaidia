@@ -1,0 +1,11 @@
+
+> consulting@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 8.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.2s (644 modules)
