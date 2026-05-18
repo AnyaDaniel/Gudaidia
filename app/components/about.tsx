@@ -6,21 +6,21 @@ const About = () => {
         <div className="my-4 text-center">
             <h1 className='text-black text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4'>OUR STORY</h1>
         </div>
-        <div className="max-w-4xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed text-left space-y-6">
+        <div className="max-w-4xl mx-auto text-base md:text-lg leading-relaxed text-left space-y-6">
                 <p>
-                Growth is rarely tidy. It bends. It pauses. It accelerates when you least expect it. And often, it asks you to rethink what you thought you knew.
+                The Gʊd Aɪ&apos;diə Company was founded around a consistent idea: businesses grow when strategy, communication, and execution are aligned.
                 </p>
                 <p>
-                Navigating that journey takes more than theory or templates. It takes perspective.
+                The foundation started long before the company itself. Early experience in process control, quality analysis, and formulation shaped a way of thinking rooted in how systems behave under pressure, change, and real-world conditions. That became the lens for everything that followed.
                 </p>
                 <p>
-                The Gʊd Aɪ&apos;diə Company is an innovation and growth strategy enabler based in New Jersey. We support organizations through every stage of innovation and growth, without letting complexity slow them down. The work lives where strategy meets imagination, and clear-thinking pairs with hands-on execution.
+                Over the past 15+ years, experience has spanned technology, cybersecurity, innovation, client engagement, operations, and commercial enablement, working across startups, enterprise environments, government innovation programs, and technical industries in the United States, Africa, and the United Kingdom.
                 </p>
                 <p>
-                The team brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who share a simple instinct: make sense of the complex and move ideas forward with purpose. Over time, that instinct has built a reputation for clarity, independence, and honest guidance that clients trust.
+                Today, The Gʊd Aɪ&apos;diə Company brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who support businesses through operational strategy, communication clarity, commercial enablement, and growth-focused execution.
                 </p>
                 <p>
-                Experience spans Consumer, Entertainment & Recreation, Technology, and Energy. Different worlds, different challenges, one shared philosophy: thoughtful strategy combined with creative problem-solving, built to endure.
+                Based in New Jersey, the company works across Technology, Cybersecurity, Consumer, and Innovation-driven sectors with one shared philosophy: thoughtful strategy, practical execution, and systems designed to scale sustainably.
                 </p>
             </div>
     </div>

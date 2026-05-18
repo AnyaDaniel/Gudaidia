@@ -9,7 +9,7 @@ const page = () => {
       <div className='grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:px-6 lg:px-8'>
         <div className='group relative flex flex-col justify-center overflow-hidden text-center h-[520px] rounded-[28px] bg-gray-900'>
           <Image
-            src='/contact.jpg'
+            src='/contactus2.jpg'
             alt='Contact phone'
             fill
             priority

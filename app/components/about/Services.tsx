@@ -7,38 +7,38 @@ import { LuLayers, LuLightbulb, LuMonitorSmartphone, LuRefreshCcw, LuTarget, LuZ
 const Services = () => {
   const services: { title: string; description: string; image: string; icon: IconType }[] = [
     {
-      title: 'Brand Renaissance',
-      description: 'Revitalizing and evolving brand identities so your story lands with clarity, confidence, and competitive relevance.',
+      title: 'Brand Consulting',
+      description: 'Reworking how your business is understood, positioned, and experienced.',
       image: '/Gud1.jpg',
       icon: LuRefreshCcw,
     },
     {
-      title: 'Business Strategy Alignment',
-      description: 'Aligning market opportunity, organizational capability, and leadership priorities to create a cohesive growth agenda.',
+      title: 'Business Strategy',
+      description: 'Aligning direction, operations, and goals into a clear strategic path.',
       image: '/Gud2.jpg',
       icon: LuTarget,
     },
     {
-      title: 'Digital Positioning & Transformation',
-      description: 'Crafting digital experiences and operating models that sharpen positioning and power meaningful change across channels.',
+      title: 'Digital Transformation',
+      description: 'Ensuring your digital presence reflects the value and capability of your business.',
       image: '/Gud3.jpg',
       icon: LuMonitorSmartphone,
     },
     {
-      title: 'Excellence Optimization',
-      description: 'Improving processes, governance, and operations so teams perform with consistency, speed, and measurable efficiency.',
+      title: 'Strategy Operations (Strat Ops)',
+      description: 'Strengthening performance, systems, and service delivery.',
       image: '/Gud4.jpg',
       icon: LuZap,
     },
     {
-      title: 'Innovative Solutions Management',
-      description: 'Managing ideas, pilots, and launch plans so innovation moves forward with structure and commercial clarity.',
+      title: 'Innovation',
+      description: 'Designing and implementing solutions that address real business challenges.',
       image: '/Gud5.jpg',
       icon: LuLightbulb,
     },
     {
-      title: 'Holistic Growth Design',
-      description: 'Designing growth strategies that connect customer insights, capability, and long-term business ambition.',
+      title: 'Business Transformation (Growth)',
+      description: 'Connecting the moving parts of your business to support scalable, sustainable growth.',
       image: '/Gud6.jpg',
       icon: LuLayers,
     },
@@ -47,8 +47,8 @@ const Services = () => {
   return (
     <section className="py-16 px-4 md:px-8 lg:px-12">
       <div className="max-w-3xl mx-auto text-center mb-14">
-        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Our Services</h1>
-        <p className="text-gray-600 text-lg max-w-2xl mx-auto">We partner with leaders to unlock growth through strategic innovation and execution excellence.</p>
+        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Innovation &amp; Growth Consulting</h1>
+        <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">We help organizations build structure, align execution, and expand growth across brand, strategy, operations, digital transformation, and innovation.</p>
       </div>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 max-w-7xl mx-auto">
@@ -72,7 +72,7 @@ const Services = () => {
                 </div>
                 <div className="space-y-3 text-center">
                   <h3 className="text-xl font-semibold text-black">{service.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                  <p className="text-gray-600 text-base md:text-lg leading-relaxed">{service.description}</p>
                 </div>
                 <button className="inline-flex items-center justify-center rounded-full border border-black bg-black px-5 py-2 text-sm font-semibold text-white transition hover:bg-gray-900">
                   Learn More
@@ -84,8 +84,8 @@ const Services = () => {
       </div>
 
       <div className="mt-14 border-t border-gray-200 pt-10 text-center">
-        <h2 className="text-2xl font-bold text-black mb-4">Ready to Transform Your Business?</h2>
-        <p className="text-gray-600 mb-6">Let&apos;s discuss how our services can drive your growth.</p>
+        <h2 className="text-2xl font-bold text-black mb-4">Work with us to build smart, innovative strategies that deliver real results.</h2>
+        <p className="text-gray-600 mb-6 text-base md:text-lg">Let&apos;s discuss how our services can drive your growth.</p>
         <a href="/contact" className="inline-block rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-900">
           Get Started
         </a>

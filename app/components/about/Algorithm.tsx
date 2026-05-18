@@ -14,7 +14,10 @@ const Algorithm = () => {
           <span className='text-gray-300'>CSM/EDF Algorithm</span>
         </h1>
         <p className='text-base md:text-lg leading-relaxed text-center md:text-left'>
-          <span className='font-bold'>The CSM/EDF Algorithm Framework</span> {`–`} Developed by The Gʊd Aɪ’diə Company, the CSM/EDF Framework guides work from concept through execution. It&apos;s structured yet flexible, designed to ensure ideas don&apos;t get stuck at strategy, but continue evolving into measurable, meaningful growth.
+          {`Developed by The Gʊd Aɪ’diə Company LLC, the CSM/EDF Framework guides ideas from early concept through full execution.`}
+        </p>
+        <p className='text-base md:text-lg leading-relaxed text-center md:text-left mt-4'>
+          {`The framework helps translate thinking into action, and action into outcomes that can be seen, measured, and built upon. It ensures ideas don’t stall at strategy, but continue evolving into meaningful, sustained progress.`}
         </p>
       </div>
     </div>

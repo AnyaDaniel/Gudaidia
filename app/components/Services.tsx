@@ -4,14 +4,14 @@ import GridImage from './GridImage'
 const Services = () => {
   return (
     <div>
-        <div className="py-5 text-center">
-            <h1 className='text-black text-4xl md:text-5xl font-extrabold mb-4'>The Gʊd Catalyst</h1>
-            <h4 className='cat5'>Igniting Innovation. Accelerating Growth.</h4>
-            <br />
-            <p className='cat6'>The Gʊd Catalyst is a structured strategic intervention designed to unlock stalled growth, strengthen competitive positioning, and sharpen organizational direction. <br /> <br />
-            It works by clarifying strategic priorities, challenging limiting assumptions, aligning leadership and stakeholders, and transforming promising ideas into defined initiatives with measurable outcomes. Through disciplined analysis, innovation audits, and actionable growth roadmaps, it converts complexity into clarity and intention into execution. <br /><br />
-            The result is renewed momentum, stronger operational alignment, and a clear pathway to sustainable growth.
-            </p>
+        <div className="py-12 text-center">
+            <h1 className='text-black text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4'>The Gʊd Catalyst</h1>
+            <h4 className='cat5'>Igniting innovation. Accelerating growth.</h4>
+            <div className='cat6 mt-8 space-y-6'>
+              <p>The Gʊd Catalyst is a structured strategic intervention designed to unlock stalled growth, strengthen competitive positioning, and sharpen organizational direction.</p>
+              <p>It works by clarifying strategic priorities, challenging limiting assumptions, aligning leadership and stakeholders, and transforming promising ideas into defined initiatives with measurable outcomes. Through disciplined analysis, innovation audits, and actionable growth roadmaps, it converts complexity into clarity and intention into execution.</p>
+              <p>The result is renewed momentum, stronger operational alignment, and a clear pathway to sustainable growth.</p>
+            </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4">
             <GridImage heading='About Us' pic="/light-bulb-img.jpg" text='' link='/about'/>
