@@ -21,13 +21,13 @@ const Services = () => {
     {
       title: 'Digital Transformation',
       description: 'Ensuring your digital presence reflects the value and capability of your business.',
-      image: '/Gud3.jpg',
+      image: '/digital-positioning.jpg',
       icon: LuMonitorSmartphone,
     },
     {
       title: 'Strategy Operations (Strat Ops)',
       description: 'Strengthening performance, systems, and service delivery.',
-      image: '/Gud4.jpg',
+      image: '/business-process-opt.jpg',
       icon: LuZap,
     },
     {
@@ -47,7 +47,7 @@ const Services = () => {
   return (
     <section className="py-16 px-4 md:px-8 lg:px-12">
       <div className="max-w-3xl mx-auto text-center mb-14">
-        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Innovation &amp; Growth Consulting</h1>
+        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">Services: Innovation &amp; Growth Consulting</h1>
         <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">We help organizations build structure, align execution, and expand growth across brand, strategy, operations, digital transformation, and innovation.</p>
       </div>
 

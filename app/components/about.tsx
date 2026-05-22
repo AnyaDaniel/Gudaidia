@@ -8,19 +8,19 @@ const About = () => {
         </div>
         <div className="max-w-4xl mx-auto text-base md:text-lg leading-relaxed text-left space-y-6">
                 <p>
-                The Gʊd Aɪ&apos;diə Company was founded around a consistent idea: businesses grow when strategy, communication, and execution are aligned.
+                {`The Gʊd Aɪ'diə Company was founded on a simple but enduring belief: businesses grow when strategy, communication, and execution move in the same direction.`}
                 </p>
                 <p>
-                The foundation started long before the company itself. Early experience in process control, quality analysis, and formulation shaped a way of thinking rooted in how systems behave under pressure, change, and real-world conditions. That became the lens for everything that followed.
+                What eventually became the company was shaped long before it had a name. Early experiences in process control, quality analysis, and formulation created a way of thinking centered on understanding how systems perform under pressure, adapt to change, and operate in real-world environments. That perspective became the foundation for everything that followed.
                 </p>
                 <p>
-                Over the past 15+ years, experience has spanned technology, cybersecurity, innovation, client engagement, operations, and commercial enablement, working across startups, enterprise environments, government innovation programs, and technical industries in the United States, Africa, and the United Kingdom.
+                {`Over the past 15+ years, that journey expanded across technology, cybersecurity, innovation, client engagement, operations, and commercial enablement. The experience has spanned startups, enterprise organizations, government innovation programs, and technical industries across the United States, Africa, and the United Kingdom, each environment adding new insight into how ideas evolve into meaningful outcomes.`}
                 </p>
                 <p>
-                Today, The Gʊd Aɪ&apos;diə Company brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who support businesses through operational strategy, communication clarity, commercial enablement, and growth-focused execution.
+                {`Today, The Gʊd Aɪ'diə Company brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who help businesses strengthen operations, clarify communication, enable growth, and turn strategy into action.`}
                 </p>
                 <p>
-                Based in New Jersey, the company works across Technology, Cybersecurity, Consumer, and Innovation-driven sectors with one shared philosophy: thoughtful strategy, practical execution, and systems designed to scale sustainably.
+                Based in New Jersey, we work across Technology, Cybersecurity, Consumer, and innovation-driven sectors, guided by a shared philosophy of thoughtful strategy, practical execution, and systems built for sustainable growth.
                 </p>
             </div>
     </div>

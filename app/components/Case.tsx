@@ -6,22 +6,21 @@ const Case = () => {
   return (
     <div>
         <div className="py-5 text-center my-8">
-          <h1 className='text-purple-black text-4xl font-extrabold'>SERVICES: Business Transformation</h1>
+          <h1 className='text-purple-black text-4xl font-extrabold'>Services: Innovation &amp; Growth Consulting</h1>
         </div>
         <div className="grid md:grid-cols-4 ">
-           <GridImage heading='Brand Renaissance' link='' pic="/Gud1.jpg" text='Revitalizing and evolving brand identities to ensure relevance and impactful engagement with target audiences.'/>
+           <GridImage heading='Brand Consulting' link='' pic="/Gud1.jpg" text='Reworking how your business is understood, positioned, and experienced.'/>
            <Color color='bg-yellow-300' />
-           <GridImage heading='Business Strategy Alignment' link='' pic="/Gud2.jpg" text='We help organizations align their teams, goals, and processes with their core strategy, so every move drives focused, cohesive growth.'/>
+           <GridImage heading='Business Strategy' link='' pic="/Gud2.jpg" text='Aligning direction, operations, and goals into a clear strategic path.'/>
            <Color color='bg-teal-300' />
            <Color color='bg-pink-300' />
-           <GridImage heading='Digital Positioning' link='' pic="/digital-positioning.jpg" text='We help brands shape how they’re seen online, enhancing visibility, reputation, and discoverability across web, social, and search platforms.'/>
+           <GridImage heading='Digital Transformation' link='' pic="/digital-positioning.jpg" text='Ensuring your digital presence reflects the value and capability of your business.'/>
            <Color color='bg-blue-300' />
-           <GridImage heading='Business Process Optimization' link='' pic="/business-process-opt.jpg" text='Streamlining and enhancing business processes to achieve peak efficiency, cost reduction, and superior performance.'/>
-           <GridImage heading='Idea-to-Impact Lab' link='' pic="/Gud5.jpg" text='We help organizations  create, manage and implement new ideas or turn ideas into impact that drives value and competitive advantage.'/>
+           <GridImage heading='Strategy Operations (Strat Ops)' link='' pic="/business-process-opt.jpg" text='Strengthening performance, systems, and service delivery.'/>
+           <GridImage heading='Innovation' link='' pic="/Gud5.jpg" text='Designing and implementing solutions that address real business challenges.'/>
            <Color color='bg-purple-300' />
-           <GridImage heading='Holistic Growth Design' link='' pic="/Gud6.jpg" text='We create integrated growth roadmaps that align your strategy, innovation, people, and processes, driving sustainable expansion across markets and touchpoints.'/>
+           <GridImage heading='Business Transformation (Growth)' link='' pic="/Gud6.jpg" text='Connecting the moving parts of your business to support scalable, sustainable growth.'/>
            <Color color='bg-orange-300' />
-           
         </div>
     </div>
   )
