@@ -9,7 +9,7 @@ const Services = () => {
             <h4 className='cat5'>Igniting innovation. Accelerating growth.</h4>
             <div className='cat6 mt-8 space-y-6'>
               <p>The Gʊd Catalyst is a structured strategic intervention designed to unlock stalled growth, strengthen competitive positioning, and sharpen organizational direction.</p>
-              <p>It works by clarifying strategic priorities, challenging limiting assumptions, aligning leadership and stakeholders, and transforming promising ideas into defined initiatives with measurable outcomes. Through disciplined analysis, innovation audits, and actionable growth roadmaps, it converts complexity into clarity and intention into execution.</p>
+              <p>It works by clarifying strategic priorities, challenging limiting assumptions, aligning leadership teams and key stakeholders around a shared vision, and transforming promising ideas into defined initiatives with measurable outcomes. Through disciplined analysis, innovation audits, and actionable growth roadmaps, it converts complexity into clarity and intention into execution.</p>
               <p>The result is renewed momentum, stronger operational alignment, and a clear pathway to sustainable growth.</p>
             </div>
         </div>

@@ -27,7 +27,7 @@ const caseStudies = [
         'Increased credibility through marketplace presence.',
         'Content strategy that educates, engages, and converts.',
       ],
-      feedback: '"I’m so excited about where the brand is heading!" – Founder',
+      feedback: ‘"I\’m so excited about where the brand is heading! The feedback has been amazing, and I\’m seeing real results from the strategy you put in place." – Founder, TallChic Naturals’,
       explore: 'https://www.tallchicnaturals.com'
     }
   },

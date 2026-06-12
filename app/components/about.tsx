@@ -20,7 +20,7 @@ const About = () => {
                 {`Today, The Gʊd Aɪ'diə Company brings together strategists, analysts, technologists, behavioral thinkers, and coordinators who help businesses strengthen operations, clarify communication, enable growth, and turn strategy into action.`}
                 </p>
                 <p>
-                Based in New Jersey, we work across Technology, Cybersecurity, Consumer, and innovation-driven sectors, guided by a shared philosophy of thoughtful strategy, practical execution, and systems built for sustainable growth.
+                Based in New Jersey, United States, we support organizations across Technology & Digital Services, Cybersecurity, Consumer Products & Goods:  beauty, personal care, and food & beverage etc, innovation-driven industries, and Sports, Media  & Entertainment. Our work is guided by a shared philosophy of thoughtful strategy, practical execution, and systems designed for sustainable growth.
                 </p>
             </div>
     </div>

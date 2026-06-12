@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className='fixed inset-x-0 top-0 z-40 bg-black'>
       <div className='mx-auto flex max-w-screen-xl items-center justify-between px-4 py-3 text-white'>
         <Link href={'/'} aria-label='Home'>
-          <Image src={'/logo2.jpg'} alt='The Gudaidia Company logo' width={356} height={179} className='h-12 w-auto' />
+          <Image src={'/logo2.jpg'} alt="The Gʊd Aɪ'diə Company logo" width={356} height={179} className='h-12 w-auto' />
         </Link>
 
         <nav>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className='mx-auto flex h-full max-w-screen-sm flex-col px-6 py-6'>
             <div className='flex items-center justify-between'>
               <Link href='/' aria-label='Home'>
-                <Image src={'/logo.png'} alt='The Gudaidia Company logo' width={87} height={57} />
+                <Image src={'/logo.png'} alt="The Gʊd Aɪ'diə Company logo" width={87} height={57} />
               </Link>
               <button type='button' onClick={handleClick} aria-label='Close navigation menu'>
                 <CgClose className='text-3xl' />
