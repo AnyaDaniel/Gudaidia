@@ -6,7 +6,7 @@ const OurWork = () => {
       <div className="py-16 text-center bg-black text-white">
         <div className="max-w-5xl mx-auto px-4">
           <h1 className="text-5xl font-extrabold mt-10">How We Help</h1>
-          <p className="mt-4 text-base md:text-lg max-w-3xl mx-auto">We don&apos;t guess. We build with intent — turning direction into clear, workable strategies that move your business forward.</p>
+          <p className="mt-4 text-base md:text-lg max-w-3xl mx-auto">We don&apos;t guess. We build with intent turning direction into clear, workable strategies that move your business forward.</p>
         </div>
       </div>
       <div className="bg-white py-16 px-4">
@@ -17,7 +17,7 @@ const OurWork = () => {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div className="p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200">
               <h3 className="text-2xl font-semibold text-black">Sparked by Ingenuity</h3>
-              <p className="mt-2 text-gray-600">We develop ideas that are original, practical, and aligned with your direction — creative thinking grounded in what your business is actually trying to achieve.</p>
+              <p className="mt-2 text-gray-600">We develop ideas that are original, practical, and aligned with your direction creative thinking grounded in what your business is actually trying to achieve.</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200">
               <h3 className="text-2xl font-semibold text-black">Wisdom That Works</h3>
@@ -29,15 +29,15 @@ const OurWork = () => {
             </div>
             <div className="p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200">
               <h3 className="text-2xl font-semibold text-black">Your Vision, Our Mission</h3>
-              <p className="mt-2 text-gray-600">We treat your goals as the starting point, not an afterthought — building around what you&apos;re trying to achieve and where you want to go next.</p>
+              <p className="mt-2 text-gray-600">We treat your goals as the starting point, not an afterthought building around what you&apos;re trying to achieve and where you want to go next.</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200">
               <h3 className="text-2xl font-semibold text-black">Results You Can Measure</h3>
-              <p className="mt-2 text-gray-600">Our approach is structured around outcomes that can be seen, tracked, and improved — not assumptions or abstract promises.</p>
+              <p className="mt-2 text-gray-600">Our approach is structured around outcomes that can be seen, tracked, and improved not assumptions or abstract promises.</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-lg shadow-lg border border-gray-200">
               <h3 className="text-2xl font-semibold text-black">Built Just for You</h3>
-              <p className="mt-2 text-gray-600">Every strategy is shaped around your purpose, challenges, and potential — designed to reflect your identity, not industry templates.</p>
+              <p className="mt-2 text-gray-600">Every strategy is shaped around your purpose, challenges, and potential designed to reflect your identity, not industry templates.</p>
             </div>
           </div>
         </div>

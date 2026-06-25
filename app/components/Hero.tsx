@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="bg-[url('/fp5.jpg')] w-full bg-cover text-left">
             <div className="bg-[#00000050] w-full flex items-center justify-start px-4 md:pt-0 mx-auto h-screen">
             <div className='text-[#faf1cf] h-full w-full max-w-5xl md:ml-28 md:pr-20'>
-                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl leading-relaxed mt-20 md:mt-32 mb-6">We Help Businesses Defy Limits, Navigate Transformation, <br/>and Achieve Lasting Success, No Matter How Complex.
+                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl leading-relaxe+d mt-20 md:mt-32 mb-6">We Help Businesses Defy Limits, <br></br>Navigate Transformation, <br></br> And Achieve Lasting Success,<br></br> No Matter How Complex.
                 </h1>
                 <p className="pb-5 text-base md:text-lg leading-relaxed"><span className="font-semibold">We understand this: ideas come easily. Execution does not.</span> Most businesses don&apos;t stall because they lack direction. They stall because what they&apos;ve started is never fully built, properly aligned, or carried forward for expansion (growth). <span className="font-semibold">We work in that gap.</span></p>
 
