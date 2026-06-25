@@ -118,7 +118,7 @@ const Work = () => {
   return (
     <section className="max-w-5xl mx-auto px-4 md:px-6 py-8 md:py-10">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 md:mb-10">Impact Highlights</h2>
-      <p className="text-center text-base md:text-lg text-gray-600 mb-6 leading-relaxed">
+      <p className="text-left text-base md:text-lg text-gray-600 mb-6 leading-relaxed">
         Impact shows up as movement. Clearer narratives. Stronger positioning. Systems that actually support progress.
         Below is the delivery overview of recent collaborations and the momentum we have helped unlock.
       </p>
@@ -140,9 +140,9 @@ const Work = () => {
             onClick={() => toggle(index)}
             className="w-full flex justify-between items-center px-4 md:px-5 py-3 md:py-4 bg-gray-100 hover:bg-gray-200 transition"
           >
-            <div className="text-left">
-              <h3 className="text-lg md:text-xl font-semibold">{study.title}</h3>
-              <p className="text-xs md:text-sm text-gray-500">{study.subtitle}</p>
+            <div className="text-left flex-1">
+              <h3 className="text-lg md:text-xl font-semibold text-left">{study.title}</h3>
+              <p className="text-xs md:text-sm text-gray-500 text-left">{study.subtitle}</p>
             </div>
             <span className="ml-2">{activeIndex === index ? <FaArrowUp /> : <FaArrowDown />}</span>
           </button>
