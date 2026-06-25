@@ -9,11 +9,11 @@ const Mvp = () => {
             <p className="text-base md:text-lg pb-3">
                 <span className="font-[700]">Mission: </span>To drive growth through clear strategy and purposeful creativity.
             </p>
-            <p className="text-base md:text-lg pb-3 mb-6 leading-relaxed">
+            <p className="text-base md:text-lg pb-3 leading-relaxed">
                 <span className="font-bold">Vision: </span>To be a trusted partner for organizations shaping what&apos;s next known for work that creates lasting, visible impact.
             </p>
             <p className="text-base md:text-lg pb-3 leading-relaxed">
-                <span className="font-bold text-lg md:text-xl mb-4 block">Principles: <i>RISE</i> </span>
+                <span className="font-bold text-lg md:text-xl mb-4 block">Principles: RISE </span>
                 <span className="font-bold text-base md:text-lg">R</span>esilience: Staying steady when things get complex and adapting without losing direction.<br />
                 <span className="font-bold text-base md:text-lg">I</span>nnovation: Finding new ways forward, guided by intent rather than trend.<br />
                 <span className="font-bold text-base md:text-lg">S</span>ervice Excellence: Doing work that holds up in practice and leaves value behind after delivery.<br />

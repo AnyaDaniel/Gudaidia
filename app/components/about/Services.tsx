@@ -74,9 +74,12 @@ const Services = () => {
                   <h3 className="text-xl font-semibold text-black">{service.title}</h3>
                   <p className="text-gray-600 text-base md:text-lg leading-relaxed">{service.description}</p>
                 </div>
-                <button className="inline-flex items-center justify-center rounded-full border border-black bg-black px-5 py-2 text-sm font-semibold text-white transition hover:bg-gray-900">
+                <a
+                  href="/contact"
+                  className="inline-flex items-center justify-center rounded-full border border-black bg-black px-5 py-2 text-sm font-semibold text-white transition hover:bg-gray-900"
+                >
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
           );
