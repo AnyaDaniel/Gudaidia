@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const partners = [
@@ -18,15 +17,17 @@ const Partners = () => {
         <h2 className="text-3xl md:text-4xl font-extrabold text-black mb-4">Our Clients & Partners</h2>
         <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">Trusted by organizations across Technology & Digital Services, Cybersecurity, Consumer Products & Goods (including Beauty, Personal Care, Food & Beverage), Innovation-Driven Industries, and Sports, Media & Entertainment.</p>
       </div>
-      <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center justify-items-center">
+      <div className="max-w-5xl mx-auto flex flex-wrap gap-8 items-center justify-center">
         {partners.map((partner) => (
-          <div key={partner.name} className="flex items-center justify-center w-full">
-            <div className="relative h-18 w-full max-w-[140px]">
-              <Image
+          <div key={partner.name} className="flex items-center justify-center">
+            <div className="flex h-20 w-40 items-center justify-center rounded border border-gray-200 bg-white p-3 shadow-sm">
+              <img
                 src={partner.logo}
                 alt={partner.name}
-                fill
-                className="object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                width={140}
+                height={64}
+                loading="lazy"
+                className="h-full w-full object-contain grayscale transition-all duration-300 hover:grayscale-0"
               />
             </div>
           </div>
