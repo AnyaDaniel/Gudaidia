@@ -25,7 +25,7 @@ const Services = () => {
       icon: LuMonitorSmartphone,
     },
     {
-      title: 'Strategy Operations (Strat Ops)',
+      title: 'Strategy & Operations (Strat Ops)',
       description: 'Strengthening performance, systems, and service delivery.',
       image: '/business-process-opt.jpg',
       icon: LuZap,
