@@ -11,10 +11,10 @@ const Hero = () => {
         <div className="bg-[url('/fp5.jpg')] w-full bg-cover text-left">
             <div className="bg-[#00000050] w-full flex items-center justify-start px-4 md:pt-0 mx-auto h-screen">
             <div className='text-[#faf1cf] h-full w-full max-w-5xl md:ml-28 md:pr-20'>
-                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl leading-relaxe+d mt-20 md:mt-32 mb-6">We Help Businesses Defy Limits, <br></br>Navigate Transformation, <br></br> And Achieve Lasting Success,<br></br> No Matter How Complex.
+                <h1 className="font-bold text-xl sm:text-2xl md:text-4xl leading-relaxe+d mt-20 md:mt-32 mb-6">Closing the Gap Between Strategy and Execution. <br></br>Turning Ideas Into Working Business Systems. <br></br> Creating Alignment That Lasts.
                 </h1>
-                <p className="pb-5 text-base md:text-lg leading-relaxed"><span className="font-semibold">We understand this: ideas come easily. Execution does not.</span> Most businesses don&apos;t stall because they lack direction. They stall because what they&apos;ve started is never fully built, properly aligned, or carried forward for expansion (growth). <span className="font-semibold">We work in that gap.</span></p>
-
+                <p className="pb-5 text-base md:text-lg leading-relaxed"><span className="font-semibold">The Gʊd Aɪ’dia Company removes the breakdown between strategy and execution, connecting vision, operations, and delivery so nothing gets lost between idea and implementation.</span></p>
+{/* We understand this: ideas come easily. Execution does not.</span> Most businesses don&apos;t stall because they lack direction. They stall because what they&apos;ve started is never fully built, properly aligned, or carried forward for expansion (growth). <span className="font-semibold">We work in that gap.</span> */}
                 <Link href={'./about'} className='mb-10 text-white bg-black px-6 py-4 hidden md:inline-block '> Find out more</Link>
             </div>
             </div>
