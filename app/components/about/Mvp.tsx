@@ -7,17 +7,17 @@ const Mvp = () => {
         <div className="text-left md:w-1/2">
             <h1 className="font-[700] pb-5 text-3xl">Our MVP</h1>
             <p className="text-base md:text-lg pb-3">
-                <span className="font-[700]">Mission: </span>To drive growth through clear strategy and purposeful creativity.
+                <span className="font-[700]">Mission: </span>To build the missing translation layer that turns ideas into working business systems across strategy, design, and execution.
             </p>
             <p className="text-base md:text-lg pb-3 leading-relaxed">
-                <span className="font-bold">Vision: </span>To be a trusted partner for organizations shaping what&apos;s next known for work that creates lasting, visible impact.
+                <span className="font-bold">Vision: </span>To eliminate the breakdown between strategy and execution in modern organizations.
             </p>
             <p className="text-base md:text-lg pb-3 leading-relaxed">
                 <span className="font-bold text-lg md:text-xl mb-2 block">Principles: RISE </span>
-                <span className="font-bold text-base md:text-lg">R</span>esilience: Staying steady when things get complex and adapting without losing direction.<br />
-                <span className="font-bold text-base md:text-lg">I</span>nnovation: Finding new ways forward, guided by intent rather than trend.<br />
-                <span className="font-bold text-base md:text-lg">S</span>ervice Excellence: Doing work that holds up in practice and leaves value behind after delivery.<br />
-                <span className="font-bold text-base md:text-lg">E</span>mpowerment: Giving partners the clarity and confidence to move decisions forward on their own terms.<br />
+                <span className="font-bold text-base md:text-lg">R</span>eframing Clarity: turning unclear intent into structured, actionable direction that can be executed within real operational constraints.<br />
+                <span className="font-bold text-base md:text-lg">I</span>nnovation: building forward movement rooted in purpose, not trend, ensuring innovation strengthens execution instead of distracting from it.<br />
+                <span className="font-bold text-base md:text-lg">S</span>ystem Integrity: keeping strategy, design, and execution tightly connected so nothing gets lost between thinking and doing.<br />
+                <span className="font-bold text-base md:text-lg">E</span>xecution Empowerment: providing the clarity, structure, and confidence that enables independent execution without ongoing reliance.<br />
             </p>
         </div>
         <div className='w-full md:w-1/2 md:ml-8 lg:ml-20'>
