@@ -14,9 +14,9 @@ const Case = () => {
            <GridImage heading='Business Strategy' link='' pic="/Gud2.jpg" text='Aligning direction, operations, and goals into a clear strategic path.'/>
            <Color color='bg-teal-300' />
            <Color color='bg-pink-300' />
-           <GridImage heading='Digital Transformation' link='' pic="/digital-positioning.jpg" text='Ensuring your digital presence reflects the value and capability of your business.'/>
+           <GridImage heading='Digital Positioning & Optimization' link='' pic="/digital-positioning.jpg" text='Aligning digital presence and improving how existing systems are used for better business performance'/>
            <Color color='bg-blue-300' />
-           <GridImage heading='Strategy Operations (Strat Ops)' link='' pic="/business-process-opt.jpg" text='Strengthening performance, systems, and service delivery.'/>
+           <GridImage heading='StratOps (Strategy & Operations)' link='' pic="/business-process-opt.jpg" text='Strengthening performance, systems, and service delivery.'/>
            <GridImage heading='Innovation' link='' pic="/Gud5.jpg" text='Designing and implementing solutions that address real business challenges.'/>
            <Color color='bg-purple-300' />
            <GridImage heading='Business Transformation (Growth)' link='' pic="/Gud6.jpg" text='Connecting the moving parts of your business to support scalable, sustainable growth.'/>
