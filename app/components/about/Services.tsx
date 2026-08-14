@@ -47,8 +47,9 @@ const Services = () => {
   return (
     <section className="py-16 px-4 md:px-8 lg:px-12">
       <div className="max-w-3xl mx-auto text-center mb-14">
-        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">The Gʊd Aɪ’dia Advisory (Innovation & Growth)</h1>
-        <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">We help organizations build structure, align execution, and expand growth across brand, strategy, operations, digital transformation, and innovation.</p>
+        <h1 className="text-black text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">The Gʊd Aɪ’dia Architecture (Innovation & Growth)</h1>
+        <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">We design the architecture that transforms business ideas into aligned brands, strategies, systems and growth engines.</p>
+        {/* <p>We help organizations build structure, align execution, and expand growth across brand, strategy, operations, digital transformation, and innovation</p> */}
       </div>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 max-w-7xl mx-auto">
